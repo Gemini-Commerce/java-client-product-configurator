@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**matrices**| [**List<ProductconfiguratormatrixEntity>**](ProductconfiguratormatrixEntity.md) |   | [optional]
+**matrices**| [**List<ProductconfiguratormatrixEntity>**](ProductconfiguratormatrixEntity.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

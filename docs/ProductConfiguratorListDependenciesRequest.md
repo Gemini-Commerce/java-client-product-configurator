@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**stepIds**| **List<String>** |   | [optional]
+**stepIds**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **pageToken**| **String** |   | [optional]
 
 

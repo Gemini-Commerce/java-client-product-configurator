@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**dependencies**| [**List<ProductconfiguratordependencyEntity>**](ProductconfiguratordependencyEntity.md) |   | [optional]
+**dependencies**| [**List<ProductconfiguratordependencyEntity>**](ProductconfiguratordependencyEntity.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

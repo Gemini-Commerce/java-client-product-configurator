@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **subjectToStepId**| **String** |   | [optional]
 **position**| **String** |   | [optional]
 **isRequired**| **Boolean** |   | [optional]
-**options**| [**List<ProductconfiguratoroptionEntity>**](ProductconfiguratoroptionEntity.md) |   | [optional]
+**options**| [**List<ProductconfiguratoroptionEntity>**](ProductconfiguratoroptionEntity.md) |   | [optional] [default to new ArrayList<>()]
 **hasMultipleSelection**| **Boolean** |   | [optional]
 **optionsHaveQuantity**| **Boolean** |   | [optional]
 **createdAt**| [**OffsetDateTime**](OffsetDateTime.md) |   | [optional]

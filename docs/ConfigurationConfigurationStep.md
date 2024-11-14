@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **id**| **String** |   | [optional]
 **grn**| **String** |   | [optional]
 **label**| [**LocalisationLocalizedText**](LocalisationLocalizedText.md) |   | [optional]
-**options**| [**List<ConfigurationStepOption>**](ConfigurationStepOption.md) |   | [optional]
+**options**| [**List<ConfigurationStepOption>**](ConfigurationStepOption.md) |   | [optional] [default to new ArrayList<>()]
 **hasMultipleSelection**| **Boolean** |   | [optional]
 
 

@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**selections**| [**List<PropertyListPropertiesByConfigurationRequestSelection>**](PropertyListPropertiesByConfigurationRequestSelection.md) |   | [optional]
+**selections**| [**List<PropertyListPropertiesByConfigurationRequestSelection>**](PropertyListPropertiesByConfigurationRequestSelection.md) |   | [optional] [default to new ArrayList<>()]
 **propertyType**| [**ProductconfiguratorPropertyType**](ProductconfiguratorPropertyType.md) |  for more information please, see Model/ProductconfiguratorPropertyType.php  | [optional] [default to ProductconfiguratorPropertyType.UNKNOWN]
 **pageToken**| **String** |   | [optional]
 

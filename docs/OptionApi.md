@@ -25,11 +25,11 @@ Add multiple options to an existing step simultaneously. Submit a POST request w
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -106,11 +106,11 @@ Efficiently remove multiple options from configurations using a bulk delete oper
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -185,11 +185,11 @@ Effortlessly update multiple options. Specify the tenant ID and submit a PUT req
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -264,11 +264,11 @@ Duplicate an existing option from the source to a specified tenant. Utilize a PO
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -345,11 +345,11 @@ Integrate a new option into an existing step by specifying the tenant and step I
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -426,11 +426,11 @@ Remove a specific option by specifying the tenant and option IDs. Ensure precisi
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -505,11 +505,11 @@ Retrieve a list of options for a specific step based on tenant and step IDs. Cus
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {
@@ -588,11 +588,11 @@ Modify an existing option by specifying the tenant and option IDs. Utilize a PUT
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.OptionApi;
 
 public class Example {

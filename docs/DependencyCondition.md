@@ -6,8 +6,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**optionIds**| **List<String>** |   | [optional]
-**conditions**| [**List<DependencyCondition>**](DependencyCondition.md) |   | [optional]
+**optionIds**| **List<String>** |   | [optional] [default to new ArrayList<>()]
+**conditions**| [**List<DependencyCondition>**](DependencyCondition.md) |   | [optional] [default to new ArrayList<>()]
 **type**| [**ProductconfiguratordependencyType**](ProductconfiguratordependencyType.md) |  for more information please, see Model/ProductconfiguratordependencyType.php  | [optional] [default to ProductconfiguratordependencyType.UNKNOWN]
 
 

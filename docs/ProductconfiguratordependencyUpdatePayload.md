@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**optionIds**| **List<String>** |   | [optional]
+**optionIds**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **condition**| [**DependencyCondition**](DependencyCondition.md) |   | [optional]
 
 

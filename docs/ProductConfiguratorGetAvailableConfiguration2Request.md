@@ -6,8 +6,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**selections**| [**List<ProductconfiguratorconfigurationSelection>**](ProductconfiguratorconfigurationSelection.md) |   | [optional]
-**propertyFilters**| [**List<ConfigurationPropertyFilter>**](ConfigurationPropertyFilter.md) |   | [optional]
+**selections**| [**List<ProductconfiguratorconfigurationSelection>**](ProductconfiguratorconfigurationSelection.md) |   | [optional] [default to new ArrayList<>()]
+**propertyFilters**| [**List<ConfigurationPropertyFilter>**](ConfigurationPropertyFilter.md) |   | [optional] [default to new ArrayList<>()]
 **configuratorId**| **String** |   | [optional]
 
 

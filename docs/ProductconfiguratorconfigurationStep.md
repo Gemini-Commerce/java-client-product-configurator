@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **subjectToStepId**| **String** |   | [optional]
 **position**| **String** |   | [optional]
 **isRequired**| **Boolean** |   | [optional]
-**options**| [**List<ProductconfiguratorconfigurationOption>**](ProductconfiguratorconfigurationOption.md) |   | [optional]
+**options**| [**List<ProductconfiguratorconfigurationOption>**](ProductconfiguratorconfigurationOption.md) |   | [optional] [default to new ArrayList<>()]
 **enabled**| **Boolean** |   | [optional]
 **hasMultipleSelection**| **Boolean** |   | [optional]
 

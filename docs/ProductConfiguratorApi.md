@@ -17,10 +17,10 @@ All URIs are relative to *https://product-configurator.api.gogemini.io*
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.ProductConfiguratorApi;
 
 public class Example {
@@ -80,10 +80,10 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.ProductConfiguratorApi;
 
 public class Example {

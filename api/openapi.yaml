@@ -120,7 +120,8 @@ paths:
       summary: Delete Configurator
       tags:
       - configurator
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing product configurator by specifying the tenant
         and configurator IDs. Use a PUT request with the updated configuration details
@@ -183,7 +184,8 @@ paths:
       - configurator
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/configurator/{configuratorId}/page-size/{pageSize}/matrices:
     post:
       description: Retrieve a list of matrices for a specific configurator based on
@@ -254,7 +256,8 @@ paths:
       - matrix
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/configurator/{configuratorId}/page-size/{pageSize}/properties:
     post:
       operationId: ProductConfigurator_ListPropertiesByConfiguration
@@ -298,7 +301,8 @@ paths:
       - ProductConfigurator
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/configurator/{configuratorId}/step/create:
     post:
       description: Add a new step to an existing product configurator by specifying
@@ -362,7 +366,8 @@ paths:
       - step
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/configurator/{configuratorId}/step/create/bulk:
     post:
       description: Add multiple steps to an existing product configurator simultaneously.
@@ -427,7 +432,8 @@ paths:
       - step
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/dependency/{dependencyId}:
     delete:
       description: "Remove a specific dependency by specifying the tenant and dependency\
@@ -483,7 +489,8 @@ paths:
       summary: Delete Dependency
       tags:
       - dependency
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing dependency by specifying the tenant and dependency
         IDs. Utilize a PUT request with updated dependency details in the body for
@@ -546,7 +553,8 @@ paths:
       - dependency
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/matrix/create:
     post:
       description: Establish a new matrix by specifying the tenant ID. Utilize a POST
@@ -605,7 +613,8 @@ paths:
       - matrix
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/matrix/{matrixId}:
     delete:
       description: "Remove a specific matrix by specifying the tenant and matrix IDs.\
@@ -661,7 +670,8 @@ paths:
       summary: Delete Matrix
       tags:
       - matrix
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     get:
       description: Retrieve matrix details by specifying the tenant and matrix IDs.
         Utilize a GET request for a comprehensive view of matrix configurations within
@@ -716,7 +726,8 @@ paths:
       summary: Get Matrix
       tags:
       - matrix
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing matrix by specifying the tenant and matrix IDs.
         Utilize a PUT request with updated matrix details in the body for seamless
@@ -780,7 +791,8 @@ paths:
       - matrix
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/matrix/{matrixId}/page-size/{pageSize}/properties:
     post:
       description: Retrieve a list of properties for a specific matrix based on tenant
@@ -850,7 +862,8 @@ paths:
       - property
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/matrix/{matrixId}/pricelist/{pricelistGrn}:
     delete:
       description: "Remove a specific pricelist from a matrix by specifying the tenant,\
@@ -911,7 +924,8 @@ paths:
       summary: Remove Pricelist from Matrix
       tags:
       - matrix
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/option/bulk:
     put:
       description: Effortlessly update multiple options. Specify the tenant ID and
@@ -970,7 +984,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/option/delete/bulk:
     post:
       description: Efficiently remove multiple options from configurations using a
@@ -1029,7 +1044,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/option/{optionId}:
     delete:
       description: "Remove a specific option by specifying the tenant and option IDs.\
@@ -1085,7 +1101,8 @@ paths:
       summary: Delete Option
       tags:
       - option
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing option by specifying the tenant and option IDs.
         Utilize a PUT request with updated option details in the body for seamless
@@ -1148,7 +1165,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/option/{sourceOptionId}/copy:
     post:
       description: "Duplicate an existing option from the source to a specified tenant.\
@@ -1213,7 +1231,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/page-size/{pageSize}/dependencies:
     post:
       description: Retrieve a list of dependencies based on the specified tenant ID.
@@ -1278,7 +1297,8 @@ paths:
       - dependency
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}:
     get:
       description: "Retrieve product configurations with status details, filtered\
@@ -1338,7 +1358,8 @@ paths:
       summary: Get Configurator by Product ID
       tags:
       - configurator
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}/configuration:
     get:
       description: Retrieve available configurations for a specific product and tenant.
@@ -1400,7 +1421,8 @@ paths:
       summary: Get Available Configuration
       tags:
       - configuration
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     post:
       description: Retrieve available configurations for a specific product and tenant.
         Use a GET request for read-only access or submit additional criteria in the
@@ -1464,7 +1486,8 @@ paths:
       - configuration
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}/configuration-from-selections:
     post:
       description: Retrieve a configuration based on user selections for a specific
@@ -1529,7 +1552,8 @@ paths:
       - configuration
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}/create:
     post:
       description: Create a new product configurator for a specified tenant and product.
@@ -1587,7 +1611,8 @@ paths:
       - configurator
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}/page-size/{pageSize}/configurators:
     post:
       description: List all product configurators.
@@ -1655,7 +1680,8 @@ paths:
       - configurator
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{productId}/status/{status}:
     get:
       description: "Retrieve product configurations with status details, filtered\
@@ -1715,7 +1741,8 @@ paths:
       summary: Get Configurator by Product ID
       tags:
       - configurator
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/product/{sourceConfiguratorId}/copy:
     post:
       description: "Duplicate an existing product configurator from the source to\
@@ -1779,7 +1806,8 @@ paths:
       - configurator
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/properties/bulk:
     put:
       description: Effortlessly update multiple properties. Specify the tenant ID
@@ -1838,7 +1866,8 @@ paths:
       - property
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/property/create:
     post:
       description: Integrate a new property into configurations by specifying the
@@ -1897,7 +1926,8 @@ paths:
       - property
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/property/create/bulk:
     post:
       description: Efficiently add multiple properties to configurations with a bulk
@@ -1956,7 +1986,8 @@ paths:
       - property
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/property/{propertyId}:
     get:
       operationId: ProductConfigurator_GetProperty
@@ -1986,7 +2017,8 @@ paths:
           description: An unexpected error response.
       tags:
       - ProductConfigurator
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing property by specifying the tenant and property
         IDs. Utilize a PUT request with updated property details in the body for seamless
@@ -2049,7 +2081,8 @@ paths:
       - property
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/delete/bulk:
     post:
       description: Efficiently remove multiple steps from a product configurator using
@@ -2108,7 +2141,8 @@ paths:
       - step
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{sourceStepId}/copy:
     post:
       description: "Duplicate an existing step from the source to a specified tenant.\
@@ -2173,7 +2207,8 @@ paths:
       - step
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{stepId}:
     delete:
       description: "Remove a step from a product configurator by specifying the tenant\
@@ -2229,7 +2264,8 @@ paths:
       summary: Delete Step
       tags:
       - step
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       description: Modify an existing step within a product configurator by specifying
         the tenant and step IDs. Utilize a PUT request with updated step details in
@@ -2292,7 +2328,8 @@ paths:
       - step
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{stepId}/dependency/create:
     post:
       description: Establish a new dependency for an existing step by specifying the
@@ -2356,7 +2393,8 @@ paths:
       - dependency
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{stepId}/option/create:
     post:
       description: Integrate a new option into an existing step by specifying the
@@ -2420,7 +2458,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{stepId}/option/create/bulk:
     post:
       description: Add multiple options to an existing step simultaneously. Submit
@@ -2485,7 +2524,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/step/{stepId}/page-size/{pageSize}/options:
     post:
       description: Retrieve a list of options for a specific step based on tenant
@@ -2555,7 +2595,8 @@ paths:
       - option
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
 components:
   schemas:
     ConfigurationStepOption:
@@ -2573,13 +2614,13 @@ components:
         - subtractToGetVariation:
           - subtractToGetVariation
           - subtractToGetVariation
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           propertyId: propertyId
         - subtractToGetVariation:
           - subtractToGetVariation
           - subtractToGetVariation
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           propertyId: propertyId
       properties:
@@ -2626,13 +2667,13 @@ components:
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
         - grn: grn
@@ -2648,13 +2689,13 @@ components:
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
         id: id
@@ -2698,13 +2739,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             enabled: true
@@ -2722,13 +2763,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             enabled: true
@@ -2760,13 +2801,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             enabled: true
@@ -2784,13 +2825,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             enabled: true
@@ -2838,13 +2879,13 @@ components:
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               enabled: true
@@ -2862,13 +2903,13 @@ components:
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               enabled: true
@@ -2900,13 +2941,13 @@ components:
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               enabled: true
@@ -2924,13 +2965,13 @@ components:
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               - subtractToGetVariation:
                 - subtractToGetVariation
                 - subtractToGetVariation
-                propertyType: null
+                propertyType: PROPERTY_TYPE_UNKNOWN
                 propertyValue: propertyValue
                 propertyId: propertyId
               enabled: true
@@ -2963,7 +3004,7 @@ components:
           optionIds:
           - optionIds
           - optionIds
-          propertyMode: null
+          propertyMode: PROPERTY_MODE_UNKNOWN
         - propertyKey: propertyKey
           grn: grn
           propertyType: null
@@ -2972,7 +3013,7 @@ components:
           optionIds:
           - optionIds
           - optionIds
-          propertyMode: null
+          propertyMode: PROPERTY_MODE_UNKNOWN
       properties:
         configurator:
           $ref: '#/components/schemas/configurationConfigurator'
@@ -2996,7 +3037,7 @@ components:
           optionIds:
           - optionIds
           - optionIds
-          propertyMode: null
+          propertyMode: PROPERTY_MODE_UNKNOWN
         - propertyKey: propertyKey
           grn: grn
           propertyType: null
@@ -3005,7 +3046,7 @@ components:
           optionIds:
           - optionIds
           - optionIds
-          propertyMode: null
+          propertyMode: PROPERTY_MODE_UNKNOWN
         steps:
         - grn: grn
           options:
@@ -3022,13 +3063,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
           - grn: grn
@@ -3044,13 +3085,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
           id: id
@@ -3073,13 +3114,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
           - grn: grn
@@ -3095,13 +3136,13 @@ components:
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
             - subtractToGetVariation:
               - subtractToGetVariation
               - subtractToGetVariation
-              propertyType: null
+              propertyType: PROPERTY_TYPE_UNKNOWN
               propertyValue: propertyValue
               propertyId: propertyId
           id: id
@@ -3124,7 +3165,7 @@ components:
         subtractToGetVariation:
         - subtractToGetVariation
         - subtractToGetVariation
-        propertyType: null
+        propertyType: PROPERTY_TYPE_UNKNOWN
         propertyValue: propertyValue
         propertyId: propertyId
       properties:
@@ -3151,7 +3192,7 @@ components:
         optionIds:
         - optionIds
         - optionIds
-        propertyMode: null
+        propertyMode: PROPERTY_MODE_UNKNOWN
       properties:
         id:
           type: string
@@ -3278,7 +3319,7 @@ components:
             hasMultipleSelection: true
             subjectToStepId: subjectToStepId
             updatedAt: 2000-01-23T04:56:07.000+00:00
-          status: null
+          status: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
         - createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
@@ -3366,7 +3407,7 @@ components:
             hasMultipleSelection: true
             subjectToStepId: subjectToStepId
             updatedAt: 2000-01-23T04:56:07.000+00:00
-          status: null
+          status: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
       properties:
         configurators:
@@ -3381,7 +3422,7 @@ components:
         conditions:
         - null
         - null
-        type: null
+        type: UNKNOWN
         optionIds:
         - optionIds
         - optionIds
@@ -3413,7 +3454,7 @@ components:
             conditions:
             - null
             - null
-            type: null
+            type: UNKNOWN
             optionIds:
             - optionIds
             - optionIds
@@ -3429,7 +3470,7 @@ components:
             conditions:
             - null
             - null
-            type: null
+            type: UNKNOWN
             optionIds:
             - optionIds
             - optionIds
@@ -3488,10 +3529,10 @@ components:
         matrices:
         - defaultPropertyId: defaultPropertyId
           weightType:
-            weightUnit: null
+            weightUnit: WEIGHT_UNIT_UNKNOWN
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertiesMode: null
+          propertiesMode: PROPERTY_MODE_UNKNOWN
           priceType:
             pricelistGrns:
             - pricelistGrns
@@ -3507,10 +3548,10 @@ components:
           updatedAt: 2000-01-23T04:56:07.000+00:00
         - defaultPropertyId: defaultPropertyId
           weightType:
-            weightUnit: null
+            weightUnit: WEIGHT_UNIT_UNKNOWN
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertiesMode: null
+          propertiesMode: PROPERTY_MODE_UNKNOWN
           priceType:
             pricelistGrns:
             - pricelistGrns
@@ -3545,7 +3586,7 @@ components:
       type: object
     matrixWeightType:
       example:
-        weightUnit: null
+        weightUnit: WEIGHT_UNIT_UNKNOWN
       properties:
         weightUnit:
           $ref: '#/components/schemas/productconfiguratorWeightUnit'
@@ -3658,13 +3699,13 @@ components:
         - subtractToGetVariation:
           - subtractToGetVariation
           - subtractToGetVariation
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           propertyId: propertyId
         - subtractToGetVariation:
           - subtractToGetVariation
           - subtractToGetVariation
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           propertyId: propertyId
         enabled: true
@@ -3722,13 +3763,13 @@ components:
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           enabled: true
@@ -3746,13 +3787,13 @@ components:
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           - subtractToGetVariation:
             - subtractToGetVariation
             - subtractToGetVariation
-            propertyType: null
+            propertyType: PROPERTY_TYPE_UNKNOWN
             propertyValue: propertyValue
             propertyId: propertyId
           enabled: true
@@ -3882,7 +3923,7 @@ components:
           hasMultipleSelection: true
           subjectToStepId: subjectToStepId
           updatedAt: 2000-01-23T04:56:07.000+00:00
-        status: null
+        status: UNKNOWN
         updatedAt: 2000-01-23T04:56:07.000+00:00
       properties:
         id:
@@ -3931,7 +3972,7 @@ components:
           conditions:
           - null
           - null
-          type: null
+          type: UNKNOWN
           optionIds:
           - optionIds
           - optionIds
@@ -3985,10 +4026,10 @@ components:
       example:
         defaultPropertyId: defaultPropertyId
         weightType:
-          weightUnit: null
+          weightUnit: WEIGHT_UNIT_UNKNOWN
         createdAt: 2000-01-23T04:56:07.000+00:00
         grn: grn
-        propertiesMode: null
+        propertiesMode: PROPERTY_MODE_UNKNOWN
         priceType:
           pricelistGrns:
           - pricelistGrns
@@ -4214,7 +4255,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4223,7 +4264,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4250,7 +4291,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4259,7 +4300,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4276,7 +4317,7 @@ components:
         propertyKey: propertyKey
         createdAt: 2000-01-23T04:56:07.000+00:00
         grn: grn
-        propertyType: null
+        propertyType: PROPERTY_TYPE_UNKNOWN
         propertyValue: propertyValue
         id: id
         stepIdToOptionId:
@@ -4548,7 +4589,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4557,7 +4598,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4578,7 +4619,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:
@@ -4587,7 +4628,7 @@ components:
         - propertyKey: propertyKey
           createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
-          propertyType: null
+          propertyType: PROPERTY_TYPE_UNKNOWN
           propertyValue: propertyValue
           id: id
           stepIdToOptionId:

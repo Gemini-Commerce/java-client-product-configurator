@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **genericType**| [**MatrixGenericType**](MatrixGenericType.md) |   | [optional]
 **priceType**| [**MatrixPriceType**](MatrixPriceType.md) |   | [optional]
 **weightType**| [**MatrixWeightType**](MatrixWeightType.md) |   | [optional]
-**steps**| [**List<ProductconfiguratormatrixStep>**](ProductconfiguratormatrixStep.md) |   | [optional]
+**steps**| [**List<ProductconfiguratormatrixStep>**](ProductconfiguratormatrixStep.md) |   | [optional] [default to new ArrayList<>()]
 **propertiesMode**| [**ProductconfiguratorPropertyMode**](ProductconfiguratorPropertyMode.md) |  for more information please, see Model/ProductconfiguratorPropertyMode.php  | [optional] [default to ProductconfiguratorPropertyMode.UNKNOWN]
 
 

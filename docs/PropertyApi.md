@@ -22,11 +22,11 @@ Efficiently add multiple properties to configurations with a bulk create operati
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.PropertyApi;
 
 public class Example {
@@ -101,11 +101,11 @@ Effortlessly update multiple properties. Specify the tenant ID and submit a PUT 
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.PropertyApi;
 
 public class Example {
@@ -180,11 +180,11 @@ Integrate a new property into configurations by specifying the tenant ID. Use a 
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.PropertyApi;
 
 public class Example {
@@ -259,11 +259,11 @@ Retrieve a list of properties for a specific matrix based on tenant and matrix I
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.PropertyApi;
 
 public class Example {
@@ -342,11 +342,11 @@ Modify an existing property by specifying the tenant and property IDs. Utilize a
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.PropertyApi;
 
 public class Example {

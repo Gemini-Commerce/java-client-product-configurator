@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**options**| [**List<ProductconfiguratoroptionEntity>**](ProductconfiguratoroptionEntity.md) |   | [optional]
+**options**| [**List<ProductconfiguratoroptionEntity>**](ProductconfiguratoroptionEntity.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

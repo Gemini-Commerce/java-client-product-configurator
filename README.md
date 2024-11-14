@@ -2,7 +2,8 @@
 
 Product Configurator Service
 - API version: v1
-  - Build date: 2024-02-29T14:09:51.605522921Z[Etc/UTC]
+  - Build date: 2024-11-14T11:48:19.673728597Z[Etc/UTC]
+  - Generator version: 7.9.0
 
 ## Introduction
 
@@ -94,7 +95,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>org.openapitools</groupId>
   <artifactId>openapi-java-client</artifactId>
-  <version>1.1.0</version>
+  <version>v1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -110,7 +111,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "org.openapitools:openapi-java-client:1.1.0"
+     implementation "org.openapitools:openapi-java-client:v1"
   }
 ```
 
@@ -124,7 +125,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/openapi-java-client-1.1.0.jar`
+* `target/openapi-java-client-v1.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -134,11 +135,11 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```java
 
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import org.openapitools.client.model.*;
 import org.openapitools.client.api.ConfigurationApi;
 
 public class Example {

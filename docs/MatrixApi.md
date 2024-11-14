@@ -23,11 +23,11 @@ Establish a new matrix by specifying the tenant ID. Utilize a POST request with 
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {
@@ -102,11 +102,11 @@ Remove a specific matrix by specifying the tenant and matrix IDs. Ensure precisi
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {
@@ -181,11 +181,11 @@ Retrieve matrix details by specifying the tenant and matrix IDs. Utilize a GET r
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {
@@ -260,11 +260,11 @@ Retrieve a list of matrices for a specific configurator based on tenant and conf
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {
@@ -343,11 +343,11 @@ Remove a specific pricelist from a matrix by specifying the tenant, matrix, and 
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {
@@ -424,11 +424,11 @@ Modify an existing matrix by specifying the tenant and matrix IDs. Utilize a PUT
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.MatrixApi;
 
 public class Example {

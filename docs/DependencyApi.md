@@ -21,11 +21,11 @@ Establish a new dependency for an existing step by specifying the tenant and ste
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.DependencyApi;
 
 public class Example {
@@ -102,11 +102,11 @@ Remove a specific dependency by specifying the tenant and dependency IDs. Ensure
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.DependencyApi;
 
 public class Example {
@@ -181,11 +181,11 @@ Retrieve a list of dependencies based on the specified tenant ID. Customize resu
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.DependencyApi;
 
 public class Example {
@@ -262,11 +262,11 @@ Modify an existing dependency by specifying the tenant and dependency IDs. Utili
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_ProductConfigurator.ApiClient;
-import GeminiCommerce_ProductConfigurator.ApiException;
-import GeminiCommerce_ProductConfigurator.Configuration;
-import GeminiCommerce_ProductConfigurator.auth.*;
-import GeminiCommerce_ProductConfigurator.models.*;
+import GeminiCommerce.ProductConfigurator.ApiClient;
+import GeminiCommerce.ProductConfigurator.ApiException;
+import GeminiCommerce.ProductConfigurator.Configuration;
+import GeminiCommerce.ProductConfigurator.auth.*;
+import GeminiCommerce.ProductConfigurator.models.*;
 import org.openapitools.client.api.DependencyApi;
 
 public class Example {

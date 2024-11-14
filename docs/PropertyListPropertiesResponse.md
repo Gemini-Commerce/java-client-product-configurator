@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**properties**| [**List<ProductconfiguratorpropertyEntity>**](ProductconfiguratorpropertyEntity.md) |   | [optional]
+**properties**| [**List<ProductconfiguratorpropertyEntity>**](ProductconfiguratorpropertyEntity.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

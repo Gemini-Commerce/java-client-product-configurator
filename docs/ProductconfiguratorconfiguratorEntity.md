@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **productId**| **String** |   | [optional]
 **label**| **String** |   | [optional]
 **status**| [**ProductconfiguratorconfiguratorStatus**](ProductconfiguratorconfiguratorStatus.md) |  for more information please, see Model/ProductconfiguratorconfiguratorStatus.php  | [optional] [default to ProductconfiguratorconfiguratorStatus.UNKNOWN]
-**steps**| [**List<ProductconfiguratorstepEntity>**](ProductconfiguratorstepEntity.md) |   | [optional]
+**steps**| [**List<ProductconfiguratorstepEntity>**](ProductconfiguratorstepEntity.md) |   | [optional] [default to new ArrayList<>()]
 **createdAt**| [**OffsetDateTime**](OffsetDateTime.md) |   | [optional]
 **updatedAt**| [**OffsetDateTime**](OffsetDateTime.md) |   | [optional]
 

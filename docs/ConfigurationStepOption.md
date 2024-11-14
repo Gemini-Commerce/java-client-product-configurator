@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **grn**| **String** |   | [optional]
 **label**| [**LocalisationLocalizedText**](LocalisationLocalizedText.md) |   | [optional]
 **swatch**| [**OptionSwatch**](OptionSwatch.md) |   | [optional]
-**optionProperties**| [**List<ConfigurationOptionProperty>**](ConfigurationOptionProperty.md) |   | [optional]
+**optionProperties**| [**List<ConfigurationOptionProperty>**](ConfigurationOptionProperty.md) |   | [optional] [default to new ArrayList<>()]
 **hasQuantity**| **Boolean** |   | [optional]
 
 

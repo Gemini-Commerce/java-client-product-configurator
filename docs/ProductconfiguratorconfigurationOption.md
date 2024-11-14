@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **position**| **String** |   | [optional]
 **swatch**| [**OptionSwatch**](OptionSwatch.md) |   | [optional]
 **enabled**| **Boolean** |   | [optional]
-**optionProperties**| [**List<ConfigurationOptionProperty>**](ConfigurationOptionProperty.md) |   | [optional]
+**optionProperties**| [**List<ConfigurationOptionProperty>**](ConfigurationOptionProperty.md) |   | [optional] [default to new ArrayList<>()]
 **hasQuantity**| **Boolean** |   | [optional]
 
 
