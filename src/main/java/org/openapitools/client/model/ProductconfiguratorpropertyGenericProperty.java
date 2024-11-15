@@ -48,7 +48,7 @@ import GeminiCommerce.ProductConfigurator.JSON;
 /**
  * ProductconfiguratorpropertyGenericProperty
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T15:29:42.666457971Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:31:51.145085516Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class ProductconfiguratorpropertyGenericProperty {
   public static final String SERIALIZED_NAME_PROPERTY_KEY = "propertyKey";
   @SerializedName(SERIALIZED_NAME_PROPERTY_KEY)
