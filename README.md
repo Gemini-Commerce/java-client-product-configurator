@@ -2,7 +2,7 @@
 
 Product Configurator Service
 - API version: v1
-  - Build date: 2024-11-14T11:48:19.673728597Z[Etc/UTC]
+  - Build date: 2024-11-15T15:29:42.666457971Z[Etc/UTC]
   - Generator version: 7.9.0
 
 ## Introduction
