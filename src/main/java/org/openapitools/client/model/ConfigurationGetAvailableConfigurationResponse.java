@@ -53,7 +53,7 @@ import GeminiCommerce.ProductConfigurator.JSON;
 /**
  * ConfigurationGetAvailableConfigurationResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:31:51.145085516Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-18T16:41:33.712657063Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class ConfigurationGetAvailableConfigurationResponse {
   public static final String SERIALIZED_NAME_CONFIGURATOR = "configurator";
   @SerializedName(SERIALIZED_NAME_CONFIGURATOR)

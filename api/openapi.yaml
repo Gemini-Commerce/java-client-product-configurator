@@ -3516,6 +3516,7 @@ components:
             type: string
           type: object
       type: object
+      x-golang-getsetvalue-exists: true
     matrixGenericType:
       example:
         propertyKey: propertyKey
